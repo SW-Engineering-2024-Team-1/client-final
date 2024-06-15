@@ -1,4 +1,3 @@
-// src/routes/AllUsers.js
 import React, { useEffect, useState } from "react";
 import "../styles/AllUsers.css";
 
