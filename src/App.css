@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  animation: fadeIn 1s ease-in;
+  font-family: 'Inter';
+  font-style: normal; 
+  background-image: url("./image/2.png"); 
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+a:link{text-decoration: none;}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 150px; /* 로고 크기를 조정 */
+  height: auto; /* 비율에 맞게 자동 조정 */
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./font/Inter-Regular.ttf');
+}
+
+button {
+  background-color: #EA5514; /* 버튼의 배경색 */
+  color: white; /* 버튼 텍스트의 색상 */
+  padding: 10px 20px; /* 패딩 설정 */
+  font-size: 16px; /* 폰트 크기 설정 */
+  border-radius: 5px; /* 둥근 모서리 */
+  cursor: pointer; /* 마우스 포인터를 변경 */
+  transition: background-color 0.3s ease; /* 배경색 변경 애니메이션 */
+}

@@ -1,0 +1,49 @@
+/* src/styles/LoginModal.css */
+
+.Login-container {
+    display: flex;
+    flex-direction: column; /* 버튼을 세로로 정렬 */
+    gap: 10px; /* 버튼 사이의 간격 */
+    text-align: center;
+}
+
+.id{
+    font-size: 20px;  
+    width: 368px;
+    height: 30px;
+    color: #828282;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    font-weight: 500;
+    font-family: 'Inter';
+   
+   
+}
+
+.password{
+    font-size: 20px;  
+    width: 368px;
+    height: 30px;
+    font-family: 'Inter';
+    color: #828282;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+   margin-top: 5px;
+   font-weight: 500
+
+}
+.login-button1{
+    width: 400px;
+    height: 40px;
+
+    background: #EA5514;
+    border-radius: 8px;
+    color: whitesmoke;
+    padding: 0px 16px;
+    gap: 8px;
+    font-family: 'Inter';
+    font-size: 17px;
+    margin: 30px;
+}
+
+

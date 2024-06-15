@@ -1,0 +1,54 @@
+/* src/styles/PhotoDetail.css */
+.photo-detail-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-bottom: 30px;
+  }
+  
+  .photo-detail img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+  
+  .photo-description,
+  .photo-keywords {
+    margin-top: 20px;
+  }
+  
+  .photo-keywords span {
+    background-color: #007bff;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 0.9em;
+
+  }
+  
+  .edit-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .edit-container button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #EA5514;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .DM-button {
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,62 @@
+/* src/styles/Profile.css */
+.profile-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: auto; /* 컨텐츠가 넘칠 때 스크롤 생성 */
+    max-height: 80vh; /* 화면 높이의 80%를 최대 높이로 설정 */
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    object-fit: cover; 
+  }
+  
+  .profile-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info_h2{
+    margin-bottom: 10px;
+  }
+  
+  .photo-feed {
+    display: grid; /* Grid 레이아웃 사용 */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* 각 아이템의 최소 너비를 200px로 설정하고 가능한 공간을 채움 */
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .photo-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .photo-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    justify-content: center; /* 가로 방향으로 중앙 정렬 */
+
+  }
+  
+  .photo-item p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .photo-keywords span {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 0.9em;
+  }
+  .profile-buttons {
+    margin-top: 10px;
+  }

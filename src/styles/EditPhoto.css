@@ -1,0 +1,39 @@
+/* src/styles/EditPhoto.css */
+.edit-photo-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .edit-photo img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .edit-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .edit-container input[type="file"] {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .edit-container button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #EA5514;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  

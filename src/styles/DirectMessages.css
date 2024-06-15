@@ -1,0 +1,12 @@
+/* src/styles/DirectMessages.css */
+
+.DM-container {
+    display: flex;
+  flex-direction: column; /* 버튼을 세로로 정렬 */
+  gap: 10px; /* 버튼 사이의 간격 */
+}
+
+.Enter-button {
+    font-size: 20px;
+    background-color: #007bff;
+}
